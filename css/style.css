@@ -11,7 +11,7 @@
 Configs Gerais 
 ----------------------------------------------------------*/
 body{
-	background:#000000; /*url(../img/background.jpg);*/
+	background:url(../img/background1.png);
 	color:#868686;
 	font-family: "Open Sans", Helvetica, sans-serif, arial; 
 	font-size: 18px; /* 18px a· 16px = 1.125em */
@@ -61,7 +61,7 @@ p{
 	letter-spacing: -0.0556em; /* -1px a 18px = -0.05555555556em */
 }
 a, a:link, a:visited{
-	color:#1399da; 
+	color:#d4af37;
 	font-weight:400; 
 	text-decoration:none;
 }
@@ -74,7 +74,7 @@ a:hover{
 Parte HEADER - Topo =======================
 ----------------------------------------------------------*/
 header{
-	border-bottom: 1px solid #E0E0E0; 
+	border-bottom: 1px solid #d4af37;
 	height:150px;
 	width:100%; /*1200px a 1200px = 1 x 100 = 100%*/
 }
@@ -112,7 +112,7 @@ nav{
 				margin-right: 2.5%; /* 30px a 1200px = 0.025 x 100 = 2.5%*/
 			}
 			nav a:link, nav a:visited{
-				color:#999;
+				color:#ffffff;
 				font-size: 1.222em; /* 22px a 18px = 1.2222222222em */
 				font-weight: 300;
 				letter-spacing: -0.090em; /* -2px a 22px = -0.0909090909em */
@@ -120,7 +120,7 @@ nav{
 				display:inline-block;
 			}
 			nav a.ativo:link, nav a:hover{
-				color:#0ac3fe; 
+				color:#d4af37;
 			}
 /*----------------------------------------------------------
  .CHAMADA ====================================
@@ -142,7 +142,7 @@ nav{
 	}
 
 .meio{
-	background-color:#0ac3fe;
+	background-color:#d4af37;
 	height: 437px;
 	padding: 2.5%;
 	width: 95%;
@@ -150,7 +150,7 @@ nav{
 
 .desktop, .tablet, .mobile{
 	float: left;
-	height: 350px;
+	height: 300px;
 	position: relative;
 	text-align:center;
 	width: 31.578%;
@@ -159,50 +159,53 @@ nav{
 	margin-right: 2.631%;
 }
 .desktop{
-	background-color:#fe9481;
+	background-color:#000000; 
 }
 .tablet{
-	background-color:#fcda92;
+	background-color:#000000;
 }
 
 .mobile{
-	background-color:#9c8cb9;
+	background-color:#000000;
 	margin-right:0px;
 }
 .meio .desktop figure, .meio .tablet figure, .meio .mobile figure{
 	margin: 15px auto 0px auto;
-	width: 69.444%;
+	width: 50%;
+	
 }
 .meio h3{
 	color: #ffffff;
 	font-size: 1.778em;
 	font-weight: 300;
 	letter-spacing: -0.0625em;
-	margin-bottom: 30px;
+	margin-bottom: -5px;
 	text-shadow:none;
+	
 }
 .meio p {
-	background-color:#ffffff;
+	background-color:#000000;
+	color:#ffffff;
 	float:left;
 	height:200px;
-	padding: 1.945%;
+	padding:1.945%;
 	position: absolute;
 	max-width: 100%;
-	text-align:justify;
-	top: 210px;
+	text-align:center
+	top:+210px;
 }
 span.botao a{
 	color:#ffffff;
 	padding: 2px 3.333%;
 }
 .desktop span.botao a{
-	background-color: #fe9481;
+	background-color:#d4af37;
 }
 .tablet span.botao a{
-	background-color: #fcda92;
+	background-color:#d4af37;
 }
 .mobile span.botao a{
-	background-color: #9c8cb9;
+	background-color:#d4af37;
 }
 span.botao{
 	font-size: 1.111em;
@@ -213,7 +216,7 @@ span.botao{
 	position: absolute;
 	right: 1px;
 	text-align: center;
-	width: 33.333%;
+	width: 100%;
 	text-shadow: none;
 }
 footer{
@@ -231,14 +234,19 @@ footer{
 }
 .desenvolvedor figure{
 	width:100%;
+	ali
 }
+.mapa{
+	margin-top:40px;
+	}
+
 
 @media screen and (max-width: 999px){
 	h2, a , a:link, a:visited{
-		color: #228b22;
+		color:#228b22;
 	}
 	a:hover{
-		color:f9ad0f;
+		color:#f9ad0f;
 	}
 	header{
 		height: 195px;
@@ -462,7 +470,7 @@ footer{
 	}
 	.meio .desktop figure, .meio .tablet figure, .meio .mobile figure{
 		float:left;
-		width:100%;
+		width: 100%;
 	}
 	.meio h3{
 		display:none;
